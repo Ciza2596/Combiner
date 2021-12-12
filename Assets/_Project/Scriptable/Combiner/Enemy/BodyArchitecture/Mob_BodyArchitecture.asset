@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa8111f82088cd4bab5ea8962464cfa, type: 3}
+  m_Name: Mob_BodyArchitecture
+  m_EditorClassIdentifier: 
+  BaseArchitecture: {fileID: 3123633066101828521, guid: 4e0fa33fde2971d4c94b551b026b6196, type: 3}
+  AddComponentNamesList:
+  - ObjName: Mob_BaseBodyArchitecture
+    ComponentNames:
+    - BoxCollider2D
+    - Rigidbody2D
+  - ObjName: Animator
+    ComponentNames:
+    - Animator
+  - ObjName: Controller
+    ComponentNames:
+    - MobController
+  - ObjName: Skin
+    ComponentNames:
+    - SpriteRenderer
